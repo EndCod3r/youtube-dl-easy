@@ -59,7 +59,7 @@ if ($exe) {
 }
 
 if ($desktop) {
-    $output_location = "`"$HOME\Desktop\Outputs\%(title)s.%(ext)s`""
+    $output_location = "` $HOME\Desktop\Outputs\%(title)s.%(ext)s"`
 }
 
 if ($options) {
